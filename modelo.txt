@@ -1,0 +1,29 @@
+Coleccion archivos
+
+{
+    fecha_de_grabacion,
+    ciudad,
+    duracion,
+    formato,
+    latitud,
+    longitud,
+    exterior,
+    usuario:{
+        rut,
+        nombre,
+        apellido,
+    }
+    audio,
+    etiquetas:{
+        nombre_fuente,
+        descripcion
+    }
+}
+
+coleccion usuarios
+
+{
+    id,
+    nombre,
+    apellido
+}
