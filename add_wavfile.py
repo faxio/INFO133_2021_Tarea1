@@ -14,7 +14,7 @@ def main():
     Collection = db['Archivos']
 
     # Cargar ruta de archivos de audio
-    ruta = os.getcwd() + "\\audios"
+    ruta = os.getcwd() + "/audios"
 
     # cargar audios
     ruta2 = ruta + "/city.wav"
