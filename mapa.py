@@ -50,7 +50,7 @@ def main():
     categorias.save("Categorias.html")
 
     # Descargar audios
-    ruta = os.getcwd() + "\\descargas"
+    ruta = os.getcwd() + "/descargas"
     info = Collection.find_one({"duracion": 35})
     # print(info)
 
