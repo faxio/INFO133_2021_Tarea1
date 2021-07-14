@@ -17,15 +17,15 @@ def main():
     ruta = os.getcwd() + "\\audios"
 
     # cargar audios
-    ruta2 = ruta + "\\city.wav"
-    ruta3 = ruta + "\\Alarma.wav"
-    ruta4 = ruta + "\\Auto.wav"
-    ruta5 = ruta + "\\Cafeteria.wav"
-    ruta6 = ruta + "\\Construccion.wav"
-    ruta7 = ruta + "\\Construccion-2.wav"
-    ruta8 = ruta + "\\Lluvia.wav"
-    ruta9 = ruta + "\\Musica.wav"
-    ruta10 = ruta + "\\Perro.wav"
+    ruta2 = ruta + "/city.wav"
+    ruta3 = ruta + "/Alarma.wav"
+    ruta4 = ruta + "/Auto.wav"
+    ruta5 = ruta + "/Cafeteria.wav"
+    ruta6 = ruta + "/Construccion.wav"
+    ruta7 = ruta + "/Construccion-2.wav"
+    ruta8 = ruta + "/Lluvia.wav"
+    ruta9 = ruta + "/Musica.wav"
+    ruta10 = ruta + "/Perro.wav"
 
     # Abrir los archivos en binario
     cargar2 = open(ruta2, "rb")

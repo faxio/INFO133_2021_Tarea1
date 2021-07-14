@@ -58,7 +58,7 @@ def main():
     nombre = info['etiquetas']['nombre_fuente']
 
     # Guardar archivo
-    ruta2 = ruta + "\\" + nombre + ".wav"
+    ruta2 = ruta + "/" + nombre + ".wav"
     salida = open(ruta2, "wb")
     salida.write(audioB)
     salida.close()
